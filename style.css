@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(254, 240, 165);
+}
+
+#yourmom {
+    animation-name: shrinkgrow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shrinkgrow {
+    from {height: 10px;}
+    to {height: 2000px;}
+}
